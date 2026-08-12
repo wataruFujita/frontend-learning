@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.parent {
+  color: blue;
+}
+.parent > .element { /* １階層下がった要素に対する指定の仕方 */
+  color: purple;
+}
+.parent > .element.second-child {
+  color: black;
+}
+
+.element {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

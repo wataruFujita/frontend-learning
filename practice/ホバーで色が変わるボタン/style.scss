@@ -1,0 +1,23 @@
+$cWhite: white;
+$cBlack: black;
+
+#container {
+  text-align: center; /* text-align：水平方向の配置を設定 */
+}
+
+.btn {
+  background-color: $cWhite;
+  color: $cBlack;
+  border: 1px solid $cBlack;
+  padding: 10px 40px; /* padding 要素の全四辺のパディング領域を一度に設定します。 */
+  margin: 50px 0; /* 要素の全四辺のマージン領域を設定します。*/
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover { /* ネスト(入れ子方式の記述)*/
+    background-color: $cBlack;
+    color: $cWhite;
+  }
+}
+

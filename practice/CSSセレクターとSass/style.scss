@@ -1,0 +1,15 @@
+.parent {
+  color: blue;
+
+  & > .element { /* １階層下がった要素に対する指定の仕方 */
+    color: purple;
+
+    &.second-child {
+      color: black;
+    }
+  }
+}
+
+.element {
+  color: red;
+}
