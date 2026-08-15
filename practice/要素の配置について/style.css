@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cceef2;
+  min-height: 100vh;
+}
+
+.element {
+  width: 150px;
+  height: 150px;
+  background-color: #0eb4de;
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */
